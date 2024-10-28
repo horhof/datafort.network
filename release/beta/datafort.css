@@ -1,0 +1,173 @@
+/* Structure */
+
+body,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1.0rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Font faces */
+
+body,
+.sans {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+tt,
+.monospace {
+  font-family: monospace;
+}
+
+/* Font dimensions */
+
+body {
+  font-weight: 400;
+  line-height: 1.40;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+/* Colors */
+
+body {
+  color: #333;
+}
+
+a,
+button {
+  color: #0f70ce;
+}
+
+/* Text elements */
+
+h1 {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 1.0rem;
+  padding: 0;
+}
+
+table a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* All tables */
+
+table {
+  min-width: 200px;
+  padding: 0;
+  margin-top: 0.0rem;
+  margin-bottom: 2.0rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+th {
+  vertical-align: middle;
+  border: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 0;
+  border-bottom: 1px solid #000;
+}
+
+/* List tables */
+
+table.list {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.list th {
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #000;
+}
+
+table.list tr:last-of-type td {
+  border-bottom: 0;
+}
+
+/* Dictionary tables */
+
+table.dict th {
+  text-align: right;
+  border-bottom: none;
+  border-right: 1px solid black;
+  padding-right: 0.5rem;
+}
+
+table.dict td {
+  padding-left: 0.5rem;
+  border-bottom: none;
+}
+
+/* Utility */
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+p {
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 1.0rem;
+}
+
+th,
+td {
+  padding-top: 0.0rem;
+  padding-bottom: 0.0rem;
+}
+
+/* Domain */
+
+.visit {
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.40rem;
+  margin-bottom: 3px;
+  padding: 0px 5px 0px 4px;
+  border: 1px solid #0f70ce;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.path-col {
+  min-width: 160px;
+}
